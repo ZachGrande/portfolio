@@ -1,3 +1,8 @@
+# Notes
+## Relevant Sites
+Documentation to create a new [React App](https://reactjs.org/docs/create-a-new-react-app.html).
+Reference for deployment in [GitHub Pages branch](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Website icon designed by [Dimitry Miroliubov](https://www.flaticon.com/authors/dimitry-miroliubov).
