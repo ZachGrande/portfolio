@@ -4,6 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-pastel-blue;
+    @apply bg-muted-blue;
+    font-family: Inter var;
   }
 }

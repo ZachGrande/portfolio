@@ -13,6 +13,8 @@ const config: Config = {
         'pastel-green': '#bde4a7',
         'pastel-yellow': '#ffe156',
         'pastel-pink': '#ffadc6',
+        'muted-blue': '#7395AE',
+        'card-brown': '#B1A296',
       },
     },
   },
