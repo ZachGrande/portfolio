@@ -9,10 +9,10 @@ export default function Home() {
         </h1>
         <div className="flex justify-center items-center">
           <a href="https://github.com/ZachGrande" className="m-1">
-            <img className="w-10" src="/github.svg" alt="GitHub" />
+            <img className="w-10 h-10" src="/github.svg" alt="GitHub" />
           </a>
           <a href="https://linkedin.com/in/zach-grande" className="m-1">
-            <img className="w-10" src="/linkedin.svg" alt="LinkedIn" />
+            <img className="w-10 h-10" src="/linkedin.svg" alt="LinkedIn" />
           </a>
         </div>
       </header>
