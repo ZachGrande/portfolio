@@ -2,11 +2,11 @@ import React from 'react';
 
 const Card = ({ title, description, imageSrc, siteUrl }: { title: string, description: string, imageSrc: string, siteUrl: string }) => {
   return (
-    <div className="p-4 m-4 bg-card-brown rounded-xl shadow-lg">
+    <div className="p-4 m-4 rounded-xl bg-slate-200 ring-2 ring-slate-50">
       <h1 className="flex justify-center mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 sm: text-2xl md:text-3xl lg:text-4xl dark:text-white">
         {title}
       </h1>
-      <p className="flex justify-center text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+      <p className="flex justify-center text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-slate-300">
         {description}
       </p>
       <div className="flex flex-col justify-center items-center">

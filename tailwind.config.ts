@@ -9,12 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'pastel-blue': '#d0e8f2',
-        'pastel-green': '#bde4a7',
-        'pastel-yellow': '#ffe156',
-        'pastel-pink': '#ffadc6',
-        'muted-blue': '#7395AE',
-        'card-brown': '#B1A296',
       },
     },
   },
