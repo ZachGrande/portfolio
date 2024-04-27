@@ -2,7 +2,7 @@ import Card from './card';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen dark:bg-black">
+    <div className="flex flex-col min-h-screen dark:bg-gray-800">
       <header className="p-4 mb-4">
         <h1 className="flex justify-center mb-2 text-4xl font-extrabold leading-none tracking-tight text-black md:text-5xl lg:text-6xl dark:text-white">
           Zach Grande
