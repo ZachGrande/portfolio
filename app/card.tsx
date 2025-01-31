@@ -12,12 +12,13 @@ const Card = ({ title, description, imageSrc, siteUrl }: { title: string, descri
       </p>
       <div className="flex flex-col justify-center items-center">
         <Image
-          className="max-w-sm max-h-min mb-6"
+          className="max-h-[200px] mb-6"
           src={imageSrc}
           alt="Hockey Teeth"
-          width={200}
-          height={200}
+          width={1000}  // no-op, included to meet requirements of Image component
+          height={1000} // no-op, included to meet requirements of Image component
           priority={true}
+          style={{ objectFit: 'contain' }} // allows the image to maintain original aspect ratio
         />
         <a href={siteUrl} className="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
             Visit the site
