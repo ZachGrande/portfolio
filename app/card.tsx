@@ -12,7 +12,7 @@ const Card = ({ title, description, imageSrc, siteUrl }: { title: string, descri
       </p>
       <div className="flex flex-col justify-center items-center">
         <Image
-          className="max-h-[200px] mb-6"
+          className="max-h-[200px] w-auto mb-6"
           src={imageSrc}
           alt="Hockey Teeth"
           width={1000}  // no-op, included to meet requirements of Image component
