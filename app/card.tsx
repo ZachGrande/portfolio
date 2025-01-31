@@ -12,11 +12,11 @@ const Card = ({ title, description, imageSrc, siteUrl }: { title: string, descri
       </p>
       <div className="flex flex-col justify-center items-center">
         <Image
-          className="max-w-sm h-56 mb-6"
+          className="max-w-sm max-h-min mb-6"
           src={imageSrc}
           alt="Hockey Teeth"
-          width={372}
-          height={224}
+          width={200}
+          height={200}
           priority={true}
         />
         <a href={siteUrl} className="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
