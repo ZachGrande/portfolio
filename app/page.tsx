@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex justify-center items-center">
           <a href="https://github.com/ZachGrande" className="m-1">
             <Image
-              className="w-10 h-10"
+              className="w-10 h-10 dark:invert"
               src="/github.svg"
               alt="GitHub"
               width={10}
