@@ -1,4 +1,5 @@
 import Card from './card';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -9,10 +10,22 @@ export default function Home() {
         </h1>
         <div className="flex justify-center items-center">
           <a href="https://github.com/ZachGrande" className="m-1">
-            <img className="w-10 h-10" src="/github.svg" alt="GitHub" />
+            <Image
+              className="w-10 h-10 dark:invert"
+              src="/github.svg"
+              alt="GitHub"
+              width={10}
+              height={10}
+            />
           </a>
           <a href="https://linkedin.com/in/zach-grande" className="m-1">
-            <img className="w-10 h-10" src="/linkedin.svg" alt="LinkedIn" />
+            <Image
+              className="w-10 h-10"
+              src="/linkedin.svg"
+              alt="LinkedIn"
+              width={10}
+              height={10}
+            />
           </a>
         </div>
       </header>
@@ -32,7 +45,7 @@ export default function Home() {
           />
         </div>
       </main>
-      <footer className="p-4 flex justify-center text-gray-400">&copy; Zach Grande 2024</footer>
+      <footer className="p-4 flex justify-center text-gray-400">&copy; Zach Grande 2025</footer>
     </div>
   )
 }
