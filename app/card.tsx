@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Card = ({ title, description, imageSrc, siteUrl }: { title: string, description: string, imageSrc: string, siteUrl: string }) => {
   return (
@@ -11,7 +12,14 @@ const Card = ({ title, description, imageSrc, siteUrl }: { title: string, descri
       </p>
       <div className="flex flex-col justify-center items-center">
         <div>
-          <img className="max-w-sm h-56 mb-6" src={imageSrc} alt="Hockey Teeth" />
+          <Image
+            className="max-w-sm h-56 mb-6"
+            src={imageSrc}
+            alt="Hockey Teeth"
+            width={372}
+            height={224}
+            priority={true}
+          />
         </div>
         <a href={siteUrl} className="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
             Visit the site
