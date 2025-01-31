@@ -11,16 +11,15 @@ const Card = ({ title, description, imageSrc, siteUrl }: { title: string, descri
         {description}
       </p>
       <div className="flex flex-col justify-center items-center">
-        <div>
-          <Image
-            className="max-w-sm h-56 mb-6"
-            src={imageSrc}
-            alt="Hockey Teeth"
-            width={372}
-            height={224}
-            priority={true}
-          />
-        </div>
+        <Image
+          className="max-h-[200px] mb-6"
+          src={imageSrc}
+          alt="Hockey Teeth"
+          width={1000}  // no-op, included to meet requirements of Image component
+          height={1000} // no-op, included to meet requirements of Image component
+          priority={true}
+          style={{ objectFit: 'contain' }} // allows the image to maintain original aspect ratio
+        />
         <a href={siteUrl} className="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
             Visit the site
             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
