@@ -20,9 +20,15 @@ export default function Home() {
         <div className="container mx-auto justify-center">
           <Card
             title="Hockey Teeth"
-            description="Built with React, hosted with AWS Amplify & EC2."
-            imageSrc="/logo.png"
+            description="Built with React, hosted with AWS Amplify"
+            imageSrc="/hockeyteeth.png"
             siteUrl="https://hockeyteethband.com"
+          />
+          <Card
+            title="Ice Cream Cult"
+            description="NextJS with Tailwind CSS, hosted with Vercel"
+            imageSrc="/icecreamcult.png"
+            siteUrl="https://icecreamcult.com"
           />
         </div>
       </main>
