@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex-grow">
-        <div className="container mx-auto justify-center">
+        <div className="container mx-auto justify-center md:grid md:grid-cols-2 md:gap-4">
           <Card
             title="Hockey Teeth"
             description="Built with React, hosted with AWS Amplify"
@@ -43,6 +43,14 @@ export default function Home() {
             imageSrc="/icecreamcult.png"
             siteUrl="https://icecreamcult.com"
           />
+          <div className="md:col-span-2 md:flex md:justify-center">
+            <Card
+              title="Phenomenality"
+              description="UW Capstone Project, powered by Firebase"
+              imageSrc="/phenomenality.png"
+              siteUrl="https://phenomenality.web.app"
+            />
+          </div>
         </div>
       </main>
       <footer className="p-4 flex justify-center text-gray-400">&copy; Zach Grande 2025</footer>
