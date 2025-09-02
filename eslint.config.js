@@ -14,6 +14,7 @@ export default defineConfig([
     },
 		rules: {
       ...react.configs.recommended.rules,
+      ...react.configs["jsx-runtime"].rules,
       ...next.configs.recommended.rules,
 			semi: "error",
 		},
