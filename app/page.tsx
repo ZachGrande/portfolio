@@ -55,5 +55,5 @@ export default function Home() {
       </main>
       <footer className="p-4 flex justify-center text-gray-400">&copy; Zach Grande 2025</footer>
     </div>
-  )
+  );
 }
