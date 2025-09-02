@@ -16,6 +16,7 @@ export default defineConfig([
       ...react.configs.recommended.rules,
       ...react.configs["jsx-runtime"].rules,
       ...next.configs.recommended.rules,
+      ...typescriptEslint.configs.recommended.rules,
 			semi: "error",
 		},
     languageOptions: {
@@ -30,6 +31,7 @@ export default defineConfig([
   {
     ignores: [
       ".next/**",
+      "next-env.d.ts",
     ]
   }
 ]);
