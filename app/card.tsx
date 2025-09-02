@@ -1,7 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Card = ({ title, description, imageSrc, siteUrl }: { title: string, description: string, imageSrc: string, siteUrl: string }) => {
+interface CardProps {
+  title: string;
+  description: string;
+  imageSrc: string;
+  siteUrl: string;
+}
+
+const Card = ({ title, description, imageSrc, siteUrl }: CardProps) => {
   return (
     <div className="p-4 m-4 rounded-xl shadow-xl bg-slate-100 dark:bg-black">
       <h1 className="flex justify-center mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 sm: text-2xl md:text-3xl lg:text-4xl dark:text-white">

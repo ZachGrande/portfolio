@@ -29,7 +29,7 @@ export default function Home() {
           </a>
         </div>
       </header>
-      <main className="flex-grow">
+      <main className="grow">
         <div className="container mx-auto justify-center md:grid md:grid-cols-2 md:gap-4">
           <Card
             title="Hockey Teeth"
@@ -55,5 +55,5 @@ export default function Home() {
       </main>
       <footer className="p-4 flex justify-center text-gray-400">&copy; Zach Grande 2025</footer>
     </div>
-  )
+  );
 }
