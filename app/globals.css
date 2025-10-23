@@ -1,7 +1,30 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+}
+
 @layer base {
   body {
-    font-family: Inter var;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  * {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
   }
 }
+
+@variant dark (&:is(.dark *));
