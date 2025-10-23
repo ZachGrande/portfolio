@@ -10,7 +10,7 @@ export default function Home() {
             Zach Grande
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
-            Developer & Designer
+            Software Engineer
           </p>
           <div className="flex items-center gap-4">
             <a 
@@ -66,7 +66,7 @@ export default function Home() {
               description="Simplistic band website with embedded videos, music streaming, and biography."
               imageSrc="/icecreamcult.png"
               siteUrl="https://icecreamcult.com"
-              tags={['Next.js', 'Tailwind CSS', 'Vercel', 'CMS']}
+              tags={['Next.js', 'Tailwind CSS', 'Vercel', 'Animations']}
               year="2025"
               highlights={[
                 'Animated loading page for first-time visitors',
