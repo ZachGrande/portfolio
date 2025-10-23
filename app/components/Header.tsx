@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import ThemeToggle from './ThemeToggle';
 
 interface SocialLink {
   href: string;
@@ -26,9 +27,12 @@ export default function Header() {
   return (
     <header className="border-b border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-6 py-12 max-w-6xl">
-        <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-black dark:text-white mb-6">
-          Zach Grande
-        </h1>
+        <div className="flex items-start justify-between mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-black dark:text-white">
+            Zach Grande
+          </h1>
+          <ThemeToggle />
+        </div>
         <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
           Software Engineer
         </p>
