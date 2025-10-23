@@ -2,6 +2,8 @@ import Card from './card';
 import Image from 'next/image';
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <header className="border-b border-gray-200 dark:border-gray-800">
@@ -55,7 +57,7 @@ export default function Home() {
               imageSrc="/hockeyteeth.svg"
               siteUrl="https://hockeyteethband.com"
               tags={['React', 'AWS Amplify', 'TypeScript', 'Responsive']}
-              year="2021 - 2025"
+              year={`2021 - ${currentYear}`}
               highlights={[
                 'Integrated Spotify & Apple Music streaming',
                 'Dynamic event calendar with ticket links'
@@ -90,7 +92,7 @@ export default function Home() {
       </main>
       <footer className="border-t border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-6 py-8 max-w-6xl">
-          <p className="text-sm text-gray-500 dark:text-gray-500">&copy; {new Date().getFullYear()} Zach Grande</p>
+          <p className="text-sm text-gray-500 dark:text-gray-500">&copy; {currentYear} Zach Grande</p>
         </div>
       </footer>
     </div>
