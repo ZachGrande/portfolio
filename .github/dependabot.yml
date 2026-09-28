@@ -5,3 +5,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      npm-security-minor-patch:
+        applies-to: security-updates
+        update-types:
+          - "minor"
+          - "patch"
+      npm-minor-patch:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
