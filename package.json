@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix"
   },
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
